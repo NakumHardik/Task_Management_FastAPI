@@ -1,0 +1,7 @@
+$kind: http-request
+name: ""
+url: http://127.0.0.1:8000/user/is_auth
+method: GET
+headers:
+  Authorization: jwt eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOjF9.kpcadPGqMmzqcc9WicUmmjWVqh8nMQr1CgWmTUtGX5o
+order: 1000

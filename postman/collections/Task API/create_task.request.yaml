@@ -1,0 +1,18 @@
+$kind: http-request
+description: ""
+url: http://127.0.0.1:8000/tasks/create
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"title\" : \"I am creating ResponceSchema \",\r
+
+    \    \"description\" : \"Easy to learn fastapi\"\r
+
+    }"
+scripts:
+  - type: afterResponse
+    code: ""
+    language: text/javascript
+order: 5000

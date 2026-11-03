@@ -1,0 +1,12 @@
+$kind: http-request
+description: ""
+url: http://127.0.0.1:8000/tasks/update_task/1
+method: PUT
+body:
+  type: json
+  content: |-
+    {
+        "title": "FastAPI",
+        "description": "Hard to run postman app"
+    }
+order: 4000
